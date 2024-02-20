@@ -11,10 +11,6 @@
   For an italic Variable font, use italic instead of
   normal in the font-style parameter. */
 
-  html {
-    @apply ring-zenith-700;
-  }
-
   /*
 	html:not(.no-fade-in) {
 		animation: 0.3s ease 0s normal backwards 1 fadeIn;

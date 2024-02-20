@@ -53,9 +53,7 @@ module.exports = {
                 let imageAttributes = {
                     alt,
                     sizes,
-                    class: classes
-                        ? classes + " rounded drop-shadow-lg"
-                        : "mx-auto rounded drop-shadow-lg",
+                    class: classes + "mx-auto",
                     loading: "lazy",
                     decoding: "async",
                 };

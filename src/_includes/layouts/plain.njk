@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="{{ metadata.language }}" class="scroll-pt-6 {{ htmlClass }} dark" data-theme="dark" :class="theme.name" x-data="xDOM">
 	<head>
-    {% include "../partials/metagen.njk" %}
-    {% include "../partials/favicon.njk" %}
-    {% include "../partials/scripts-head.njk" %}
+    <title>{{ metadata.author }}</title>
+    {%- if eleventy.env.runMode === "serve" -%}
+      <link rel="stylesheet" href="/css/main.css">
+    {%- else -%}
+      <style>{%- include "../../../_site/css/main.css" -%}</style>
+    {%- endif -%}
 	</head>
-	<body class="dark:bg-terminal-400 dark:text-zenith {{ bodyClass }}">
+	<body class="{{ bodyClass }}">
 
 		{% include "../partials/scripts-body.njk" %}
 

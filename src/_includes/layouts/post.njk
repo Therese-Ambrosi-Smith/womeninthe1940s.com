@@ -35,7 +35,7 @@ layout: base.njk
 
 
 	{%- if collections.posts %}
-		<section class="my-12 py-8 border-t border-solid dark:border-zinc-700">
+		<section class="my-12 py-8">
 			{%- set previousPost = collections.posts | getPreviousCollectionItem %}
 			{%- set nextPost = collections.posts | getNextCollectionItem %}
 			{%- if nextPost or previousPost %}

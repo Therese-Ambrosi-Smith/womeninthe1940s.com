@@ -1,7 +1,7 @@
 ---
 title: "WWII American Home Front Oral History Project"
 desc: ""
-date: 2011/10/30
+date: 2011-10-30
 tags: []
 ---
 

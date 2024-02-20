@@ -1,7 +1,7 @@
 ---
 title: "Thank you Kaiser Heritage "
 desc: ""
-date: 2011/10/20
+date: 2011-10-20
 tags: []
 ---
 
