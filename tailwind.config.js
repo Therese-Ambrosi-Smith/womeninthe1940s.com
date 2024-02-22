@@ -49,6 +49,10 @@ module.exports = {
                     200: "#8A8A8A",
                     DEFAULT: "#666666"
                 },
+                carbon: {
+                    500: "#333333",
+                    DEFAULT: "#333333"
+                },
                 aspectRatio: {
                     auto: "auto",
                     box: "1",
