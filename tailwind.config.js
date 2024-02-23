@@ -83,7 +83,7 @@ module.exports = {
         ({ addComponents, theme }) => {
             addComponents({
                 ".prose": {
-                    "@apply text-base md:text-lg": {},
+                    "@apply text-base md:text-lg text-carbon": {},
                 },
                 ".container": {
                     "@apply px-4 mx-auto": {},

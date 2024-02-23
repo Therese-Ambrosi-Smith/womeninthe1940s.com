@@ -26,11 +26,6 @@ layout: base.njk
 
 		{{ content | safe }}
 
-		{#
-		{%- if tags|filterTagList|length %}
-		<footer class="mt-8"></footer>
-		{%- endif %}
-		#}
 	</article>
 
 
@@ -68,9 +63,5 @@ layout: base.njk
 			{%- endif %}
 		</section>
 	{%- endif %}
-
-
-{#	<section id="comments"></section>#}
-
 
 </div>

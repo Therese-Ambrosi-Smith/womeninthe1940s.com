@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ metadata.language }}" class="scroll-pt-6 {{ htmlClass }} dark" data-theme="dark" :class="theme.name" x-data="xDOM">
+<html lang="{{ metadata.language }}" class="scroll-pt-6 {{ htmlClass }}" x-data="xDOM">
 	<head>
 		<title>Women in the 1940s</title>
     {%- if eleventy.env.runMode === "serve" -%}
@@ -16,7 +16,7 @@
 
 		{# Set min height for main section alpine js #}
 		<main id="skip" class="my-12">
-			<div class="container sm:px-10 prose">
+			<div class="container sm:px-10">
 				{{ content | safe }}
 			</div>
 		</main>
