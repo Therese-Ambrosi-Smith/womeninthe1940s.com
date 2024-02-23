@@ -83,12 +83,15 @@ module.exports = {
         ({ addComponents, theme }) => {
             addComponents({
                 ".prose": {
-                    "@apply text-base md:text-lg text-carbon": {},
+                    "@apply text-carbon marker:prose-li:text-black prose-h3:text-black prose-h3:text-[16px] prose-h3:font-bold prose-h2:text-lg prose-h2:text-black prose-h1:text-black prose-h1:font-bold prose-h1:text-2xl prose-h2:text-lg": {},
                 },
                 ".container": {
                     "@apply px-4 mx-auto": {},
                     maxWidth: "900px",
                 },
+                ".prose :where(picture):not(:where([class~='not-prose'],[class~='not-prose'] *))": {
+                    margin: 0
+                }
             });
         },
     ],
