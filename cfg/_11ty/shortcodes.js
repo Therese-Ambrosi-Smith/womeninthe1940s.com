@@ -92,48 +92,6 @@ module.exports = {
         });
     },
 
-    signature: (eleventyConfig) => {
-        eleventyConfig.addShortcode(
-            "signature",
-            function signatureShortcode(type) {
-                switch (type) {
-                    case "name":
-                        return "Alex Zappa";
-                    default:
-                        return `May the 4th be with you,<br/>Alex`;
-                }
-            }
-        );
-    },
-
-    codepen: (eleventyConfig) => {
-        // &theme-id=1&slug-hash=ZEXzqgE&default-tab=css,result
-        // theme-id: 1, 2, 3, 4, dark
-        eleventyConfig.addShortcode(
-            "codepen",
-            function codepenShortcode(code, args = {}) {
-                const defaults = {
-                    user: "reatlat",
-                    theme: "1",
-                    height: "300",
-                    defaultTab: "result",
-                };
-
-                const { user, theme, height, defaultTab } = {
-                    ...defaults,
-                    ...args,
-                };
-
-                return `
-				<p class="codepen rounded drop-shadow-lg dark:drop-shadow-none flex items-center justify-center border border-solid dark:border-zinc-700 p-4" data-height="${height}" data-theme-id="${theme}" data-default-tab="${defaultTab}" data-slug-hash="${code}" data-user="${user}" style="height: ${height}px;">
-				  <span>See the Pen <a href="https://codepen.io/reatlat/pen/${code}">
-				  Selection pseudo class</a> by Alex Zappa (<a href="https://codepen.io/reatlat">@reatlat</a>)
-				  on <a href="https://codepen.io">CodePen</a>.</span>
-				</p>`;
-            }
-        );
-    },
-
     video: (eleventyConfig) => {
         eleventyConfig.addShortcode(
             "video",
