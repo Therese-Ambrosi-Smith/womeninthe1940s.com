@@ -13,4 +13,8 @@ Thank you so much!
 
 If you visit Richmond, you can see the old Kaiser Field Hospital. It's not open to the public now, but as plans for Rosie the Riveter WWII Home Front National Historic Park come to fruition, there ae fantastic opportunities for interpretation.
 
-{% image "./IMG_5322.jpg", "", [900] %} {% image "./IMG_5323.jpg", "", [900] %} {% image "./DSCN0074.jpg", "", [900] %}
+{% image "./IMG_5322.jpg", "", [900] %}
+
+{% image "./IMG_5323.jpg", "", [900] %}
+
+{% image "./DSCN0074.jpg", "", [900] %}

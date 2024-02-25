@@ -11,6 +11,10 @@ I wasn't prepared for our off-road adventure. Barry, Loofie the cat and I had a 
 
 My free day last week (I had six events scheduled in seven days) was Saturday; with a full day between readings in Spokane and Leavenworth. What to do? Visit Mount Rainer, of course! Or, the Forest Service roads between Mount Rainer and Leavenworth. What I didn't know about my GPS -- pavement is optional. A road is a road if it shows up on a forest service map somewhere.
 
-{% image "./entering-the-stream-bed.jpg", "", [900] %} {% image "./crossing-the-stream-bed.jpg", "", [900] %} {% image "./DSCN0543.jpg", "", [900] %}
+{% image "./entering-the-stream-bed.jpg", "", [900] %}
+
+{% image "./crossing-the-stream-bed.jpg", "", [900] %}
+
+{% image "./DSCN0543.jpg", "", [900] %}
 
 I was a bit nervous about leaving the asphalt, but not my Kiwi companion. (Sir Edmond Hillary was a Kiwi after all). Here is Barry after the second dry stream bed crossing. Doesn't he look proud of himself?

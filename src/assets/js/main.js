@@ -1,6 +1,8 @@
 import flyingPages from "flying-pages-module";
 import Alpine from "alpinejs";
 import dataDOM from "./modules/Alpine.data/DOM";
+import "lite-youtube-embed";
+import debugLog from "./modules/_debugLog";
 
 // The window.Alpine = Alpine bit is optional, but is nice to have for
 // freedom and flexibility. Like when tinkering with Alpine from the devtools for example.
@@ -17,6 +19,7 @@ Alpine.data("xDOM", dataDOM);
 
 // Start Alpine when the page is ready.
 window.addEventListener("DOMContentLoaded", () => {
+    debugLog("DOMContentLoaded");
 	Alpine.start();
 	flyingPages({});
 });

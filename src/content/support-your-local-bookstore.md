@@ -14,14 +14,14 @@ Below is a list of debut-author-friendly independent bookstores that do online f
 
 ## By city — listed alphabetically — they are:
 
-- Bainbridge Island, WA: <a class="text-blue-500">Eagle Harbor Book Company</a>
-- Bellingham, WA: <a class="text-blue-500">Village Books</a> in Fairhaven
-- Gualala, CA: <a class="text-blue-500">Four-Eyed Frog Books</a>
-- La Canada, CA: <a class="text-blue-500">Flintridge Bookstore & Coffeehouse</a>
-- Leavenworth, WA: <a class="text-blue-500">A Book for All Seasons</a>
-- Lincoln City OR: <a class="text-blue-500">Bob’s Beach Books</a>
-- Olympia, WA: <a class="text-blue-500">Orca Books</a>
-- Quincy, CA: <a class="text-blue-500">Epilog Books</a>
-- Spokane, WA: <a class="text-blue-500">Auntie’s Books</a>
-- Walla Walla, WA: <a class="text-blue-500">Book & Game</a>
-- Watsonville, CA: <a class="text-blue-500">Crossroads Books</a>
+- Bainbridge Island, WA: <a href="https://www.eagleharborbooks.com/" target="_blank" class="text-blue-500">Eagle Harbor Book Company</a>
+- Bellingham, WA: <a href="https://www.villagebooks.com/" target="_blank" class="text-blue-500">Village Books</a> in Fairhaven
+- Gualala, CA: <a href="https://www.foureyedfrog.com/" target="_blank" class="text-blue-500">Four-Eyed Frog Books</a>
+- La Canada, CA: <a href="https://www.flintridgebooks.com/" target="_blank" class="text-blue-500">Flintridge Bookstore & Coffeehouse</a>
+- Leavenworth, WA: <a href="https://www.abookforallseasons.com/" target="_blank" class="text-blue-500">A Book for All Seasons</a>
+- Lincoln City OR: <a href="https://bobsbeachbooks.net/" target="_blank" class="text-blue-500">Bob’s Beach Books</a>
+- Olympia, WA: <a href="https://www.orcabooks.com/" target="_blank" class="text-blue-500">Orca Books</a>
+- Quincy, CA: <a href="https://epilogbooks.mybooksandmore.com/" target="_blank" class="text-blue-500">Epilog Books</a>
+- Spokane, WA: <a href="https://www.auntiesbooks.com/" target="_blank" class="text-blue-500">Auntie’s Books</a>
+- Walla Walla, WA: <a href="http://www.bookandgame.com/" target="_blank" class="text-blue-500">Book & Game</a>
+- Watsonville, CA: <a href="http://watsonvillebooks.com/" target="_blank" class="text-blue-500">Crossroads Books</a>

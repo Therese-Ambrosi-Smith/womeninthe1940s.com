@@ -1,12 +1,11 @@
-<article class="p-4 md:p-8">
-	<h3 class="font-bold text-md md:text-lg mt-4">
+<article class="my-0">
+	<h3 class="font-bold text-md md:text-lg my-0">
 		<a class="text-current" href="/blog/{{ post.data.title | slugify }}/">{{ post.data.title }}</a>
 	</h3>
-  <div class="post-metadata text-gray-300 m-0 text-xs">
-    <p>
-      Posted on <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate("LLLL dd, yyyy") }}</time> by
-      <a class="underline" href="{{ post.data.authorUrl }}">{{ post.data.author }}</a>
+  <div class="post-metadata text-gray-700 m-0 mb-2 text-xs">
+    <p class="my-0">
+      Posted on <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate("LLLL dd, yyyy") }}</time>
     </p>
   </div>
-	<p class="pt-3 text-sm line-clamp-4">{{ post.data.desc }}</p>
+	<p class="my-0 text-sm line-clamp-4">{{ post.data.desc }}</p>
 </article>

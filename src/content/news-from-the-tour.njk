@@ -4,11 +4,8 @@ permalink: /news-from-the-tour/
 ---
 
 <section class="py-4 md:py-8">
-  <div class="grid grid-cols-1 gap-4 lg:gap-8">
-    {% set postslist = collections.posts %}
-    {% set postslistCounter = postsCount %}
-
-    {% for post in postslist | reverse %}
+  <div class="grid grid-cols-1 gap-4 lg:gap-8 prose mx-auto">
+    {% for post in collections.posts | reverse %}
       {% include "partials/single-post-card.njk" %}
     {% endfor %}
   </div>

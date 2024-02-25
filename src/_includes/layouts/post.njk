@@ -28,9 +28,11 @@ layout: base.njk
 
 	</article>
 
+</div>
+<div class="prose mx-auto">
 
 	{%- if collections.posts %}
-		<section class="my-12 py-8">
+		<section class="my-12">
 			{%- set previousPost = collections.posts | getPreviousCollectionItem %}
 			{%- set nextPost = collections.posts | getNextCollectionItem %}
 			{%- if nextPost or previousPost %}
@@ -41,7 +43,7 @@ layout: base.njk
 								<span class="text-sm text-[--tw-prose-body] flex gap-1 items-center justify-start -ml-1">
 									{% feather "arrow-up-left", { "class": "h-5 w-5" } %}<span>Previous</span>
 								</span>
-								<span class="group-hover:underline">{{ previousPost.data.title }}</span>
+								<span class="block group-hover:underline text-balance">{{ previousPost.data.title }}</span>
 							</a>
 						</li>
 					{%- else %}
@@ -53,7 +55,7 @@ layout: base.njk
 								<span class="text-sm text-[--tw-prose-body] flex gap-1 items-center justify-end -mr-1">
 									<span>Next</span>{% feather "arrow-up-right", { "class": "h-5 w-5" } %}
 								</span>
-								<span class="group-hover:underline">{{ nextPost.data.title }}</span>
+								<span class="block group-hover:underline text-balance">{{ nextPost.data.title }}</span>
 							</a>
 						</li>
 					{%- else %}

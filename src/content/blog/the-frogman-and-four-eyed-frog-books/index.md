@@ -10,6 +10,8 @@ The store is situated on Ocean Drive and is a labor of love for Frogman Joel Cro
 
 As promised, the show was FUN. And the reading I did on Saturday afternoon was also enjoyable.
 
-Four-Eyed Frog special orders books and offers on-line fulfillment. Their website is www.foureyedfrog.com We need to support local businesses like Joel's because they offer so much more than a place to buy things -- they offer a place to gather, to interact with knowledgable booksellers, and in the case of Four-Eyed Frog, pick up litter along the highway!
+<div class="float-right pl-10">
+  {% image "./Screen-shot-2011-10-20-at-10.04.02-AM.png", "", [900], "" %}
+</div>
 
-{% image "./Screen-shot-2011-10-20-at-10.04.02-AM.png", "", [900] %}
+Four-Eyed Frog special orders books and offers on-line fulfillment. Their website is www.foureyedfrog.com We need to support local businesses like Joel's because they offer so much more than a place to buy things -- they offer a place to gather, to interact with knowledgable booksellers, and in the case of Four-Eyed Frog, pick up litter along the highway!

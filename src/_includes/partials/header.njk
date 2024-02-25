@@ -5,67 +5,77 @@
       <p class="text-xl italic text-gray">A novel about women in the 1940s</p>
     </div>
   </div>
-  <div class="container p-0 border-y-4 border-black">
+  <div class="container p-0 border-t-4 border-black">
     {% image "/images/mastehead-graphic16.jpg", "", [auto], "w-full" %}
-    <div class="bg-black text-gray-100 px-2 text-xs">
-      <div class="flex">
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" target="_blank" href="https://thereseambrosismith.com/">Author Website</a>
-        </div>
+    <div class="bg-black text-gray-100 text-xs">
 
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/">Inspiration</a>
-        </div>
+      <nav class="flex flex-wrap">
 
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/early-praise-for-wax/">Praise for "Wax"</a>
-        </div>
+        {% set menuArray = [
+          {
+            title: 'Author Website',
+            newTab: true,
+            url: "https://thereseambrosismith.com/"
+          },
+          {
+            title: 'Inspiration',
+            url: "/"
+          },
+          {
+            title: 'Praise for "Wax"',
+            url: "/early-praise-for-wax/"
+          },
+          {
+            title: 'Book',
+            url: "/the-book/"
+          },
+          {
+            title: 'Chapters 1 & 2',
+            url: "/sample-chapters-1-2/"
+          },
+          {
+            title: 'Liberty Ships',
+            url: "/about-liberty-ships/"
+          },
+          {
+            title: 'Tilly\'s Favourite Places',
+            url: "/tillys-favorites/"
+          },
+          {
+            title: 'Blog',
+            url: "/news-from-the-tour/"
+          },
+          {
+            title: 'Tin Can Camper Book Tour',
+            url: "/tin-can-book-tour/"
+          },
+          {
+            title: 'Women in the 1940s, in the news',
+            url: "/rosie-in-the-news/"
+          },
+          {
+            title: 'Support your local bookstore!',
+            url: "/support-your-local-bookstore/"
+          },
+          {
+            title: 'Contact',
+            url: "/contact/"
+          },
+          {
+            title: 'Rationing for the home cook',
+            url: "/rationing-for-the-home-cook/"
+          }
+        ] %}
 
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/the-book/">Book</a>
-        </div>
+        {% for item in menuArray %}
+          <a class="block p-3 hover:bg-gray-200/30 text-white transition-all hover:font-semibold"
+             {{ 'target="_blank"' if item.newTab }}
+             href="{{ item.url }}">
+            {{ item.title }}
+          </a>
+        {% endfor %}
 
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/sample-chapters-1-2/">Chapters 1 & 2</a>
-        </div>
-
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/about-liberty-ships/">Liberty Ships</a>
-        </div>
-
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/tillys-favorites/">Tilly's Favourite Places</a>
-        </div>
-
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/news-from-the-tour/">Blog</a>
-        </div>
-
-      </div>
-
-      <div class="flex">
-
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/tin-can-book-tour/">Tin Can Camper Book Tour</a>
-        </div>
-
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/rosie-in-the-news/">Women in the 1940s, in the news</a>
-        </div>
-
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/support-your-local-bookstore/">Support your local bookstore!</a>
-        </div>
-
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/contact/">Contact</a>
-        </div>
-
-        <div class="hover:bg-gray-200 hover:text-white">
-          <a class="block p-3" href="/rationing-for-the-home-cook/">Rationing for the home cook</a>
-        </div>
-
-      </div>
+      </nav>
     </div>
   </div>
 
