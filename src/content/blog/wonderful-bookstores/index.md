@@ -1,6 +1,6 @@
 ---
 title: "Wonderful Book Stores"
-desc: ""
+desc: "I'm grateful to the independent booksellers hosting me in their wonderful stores -- I've just updated the schedule. I'll be starting in the north in mid-September;"
 date: 2011-08-02
 tags: []
 ---

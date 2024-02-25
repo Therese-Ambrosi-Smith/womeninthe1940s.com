@@ -1,6 +1,6 @@
 ---
 title: "1954 Beemer"
-desc: ""
+desc: "Airstreams are the Cadillacs of tin can campers.  In Wax, Tilly lives in a sixteen foot beauty in Parking Lot C. I found a 1948 Wee Wind, restored, for thirty-eight thousand dollars -- about thirty-six thousand more than I intended to spend."
 date: 2011-03-20
 tags: []
 ---

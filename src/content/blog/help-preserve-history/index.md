@@ -1,6 +1,6 @@
 ---
 title: "Help Preserve History"
-desc: ""
+desc: "For all that’s been written about The War, The Greatest Generation’s gay and lesbian life is not well chronicled – particularly on the home front. The National Park Service is actively seeking individuals to contribute their unique stories to the diverse history interpreted at Rosie the Riveter WWII Home Front National Historical Park — in Richmond, California — just 18 miles north and east of San Francisco."
 date: 2013-04-04
 tags: []
 ---

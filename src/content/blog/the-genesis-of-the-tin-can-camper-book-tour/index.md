@@ -1,6 +1,6 @@
 ---
 title: "The Genesis of the Tin Can Camper Book Tour"
-desc: ""
+desc: "My friend Rube baits me. He's one of the most creative people I know, but he enjoys launching my pursuit of his ideas more than acting on them."
 date: 2011-03-13
 tags: []
 ---

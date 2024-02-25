@@ -1,6 +1,6 @@
 ---
 title: "Field of Dreams"
-desc: ""
+desc: "That's what came to mind when I first arrived at Vintage Campers in Peru, Indiana. I'd foolishly worried about not being able to find the place. Proprietor Dan Piper explained that he'd \"got the disease -- bad\" and started collecting."
 date: 2011-03-26
 tags: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Rosie the Icon"
-desc: ""
+desc: "The \"We Can Do It\" poster created by the War Department to recruit women for industry, has taken on a life of its own, spanning generations. The image has been used on kids' lunch boxes and campaign mailers."
 date: 2011-06-08
 tags: []
 ---

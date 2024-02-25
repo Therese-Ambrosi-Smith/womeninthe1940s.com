@@ -1,6 +1,6 @@
 ---
 title: "Exfoliating Mighty Mouse"
-desc: ""
+desc: "It wasn't as bad as I thought it would be. I discovered rubbing compound. Who knew that fifty-seven years of oxidation would buff off?"
 date: 2011-03-30
 tags: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: "During and After Photos"
-desc: ""
+desc: "Now I know about aluminum primer, which is useful information if you plan to paint aluminum."
 date: 2011-04-14
 tags: []
 ---

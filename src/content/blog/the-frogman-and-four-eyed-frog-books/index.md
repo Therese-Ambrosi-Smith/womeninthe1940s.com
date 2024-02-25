@@ -1,6 +1,6 @@
 ---
 title: "The Frogman and Four-Eyed Frog Books"
-desc: ""
+desc: "I was driving through Gualala, California when I saw an adopt a highway sign: the litter free road was compliments of Four-Eyed Frog Books."
 date: 2011-09-18
 tags: []
 ---

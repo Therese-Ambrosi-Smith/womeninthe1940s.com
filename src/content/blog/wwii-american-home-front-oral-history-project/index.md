@@ -1,6 +1,6 @@
 ---
 title: "WWII American Home Front Oral History Project"
-desc: ""
+desc: "I'm often asked, at readings, about the inspiration for \"Wax\". I was inspired by oral histories I read -- transcripts of interviews with women who worked in the shipyards during WWII -- obtained through Rosie the Riveter, WWII Home Front, National Historical Park."
 date: 2011-10-30
 tags: []
 ---

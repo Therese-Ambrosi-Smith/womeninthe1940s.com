@@ -1,6 +1,6 @@
 ---
 title: "WWII Home Front Festival"
-desc: ""
+desc: "On October 15th I had the pleasure of participating in the Richmond, WWII Home Front Festival, a cooperative effort between the City of Richmond, the Richmond Chamber of Commerce, and the National Park Service. I hadn't attended before, but I will attend again."
 date: 2011-10-20
 tags: []
 ---

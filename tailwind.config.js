@@ -47,6 +47,7 @@ module.exports = {
                 gray: {
                     100: "#AAAAAA",
                     200: "#8A8A8A",
+                    300: "#777777",
                     DEFAULT: "#666666"
                 },
                 carbon: {

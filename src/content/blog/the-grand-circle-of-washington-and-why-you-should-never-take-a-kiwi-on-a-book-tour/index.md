@@ -1,6 +1,6 @@
 ---
 title: "The Grand Circle of Washington and Why You Should Never Take a Kiwi on a Book Tour"
-desc: ""
+desc: "I got a GPS for the book tour because I couldn't fathom driving around lost while towing the tin can camper. Sometimes a side trip away from the down town business district is necessary to park the truck and trailer, and the GPS is handy."
 date: 2011-10-02
 tags: []
 ---

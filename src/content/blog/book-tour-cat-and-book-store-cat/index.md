@@ -1,6 +1,6 @@
 ---
 title: "Book Tour Cat and Book Store Cat"
-desc: ""
+desc: "Loofie (aka Alice Aloof) has been my faithful traveling companion on the Tin Can Camper Book Tour. For the most part, our journey's been uneventful."
 date: 2011-10-05
 tags: []
 ---

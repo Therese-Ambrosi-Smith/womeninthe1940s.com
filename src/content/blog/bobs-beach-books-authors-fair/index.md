@@ -1,6 +1,6 @@
 ---
 title: "Bob's Beach Books Authors' Fair"
-desc: ""
+desc: "An important stop on the Tin Can Camper Book Tour! I never know what to expect and I'm never disappointed."
 date: 2011-09-01
 tags: []
 ---

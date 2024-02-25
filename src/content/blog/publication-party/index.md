@@ -1,6 +1,6 @@
 ---
 title: "Publication Party"
-desc: ""
+desc: "Last night one hundred friends gathered on the back patio of The Gate in Belmont to celebrate the publication of \"Wax\". Many, many thanks to all who helped with the event"
 date: 2011-09-11
 tags: []
 ---
