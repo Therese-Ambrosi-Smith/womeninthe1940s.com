@@ -21,7 +21,7 @@ module.exports = () => {
         timezone: process.env.TIMEZONE || "UTC",
         issues: {
             owner: "reatlat",
-            repo: "alex.zappa.dev",
+            repo: "womeninthe1940s.com",
         },
         hash: {
             short: gitHash.slice(0, 7),
