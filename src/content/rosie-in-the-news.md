@@ -50,7 +50,7 @@ Sylvia snorted and put her cup down abruptly, “What do you think I keep in tha
 
 {% image "/images/Screen-shot-2011-06-27-at-2.46.57-PM.png", "", [auto], "" %}
 
-<a class="text-blue-500" href="http://beta.news.yahoo.com/photos/the-ghost-ships-of-suisun-bay-1307733678-slideshow/">Check out this slide show for views of the mothball fleet!</a>
+Check out this slide show for views of the mothball fleet!
 
 {% image "/images/Screen-shot-2011-04-26-at-2.07.40-PM.png", "", [auto], "" %}
 

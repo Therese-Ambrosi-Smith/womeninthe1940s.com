@@ -21,7 +21,7 @@ Below is a list of debut-author-friendly independent bookstores that do online f
 - Leavenworth, WA: <a href="https://www.abookforallseasons.com/" target="_blank" class="text-blue-500">A Book for All Seasons</a>
 - Lincoln City OR: <a href="https://bobsbeachbooks.net/" target="_blank" class="text-blue-500">Bob’s Beach Books</a>
 - Olympia, WA: <a href="https://www.orcabooks.com/" target="_blank" class="text-blue-500">Orca Books</a>
-- Quincy, CA: <a href="https://epilogbooks.mybooksandmore.com/" target="_blank" class="text-blue-500">Epilog Books</a>
+- Quincy, CA: Epilog Books
 - Spokane, WA: <a href="https://www.auntiesbooks.com/" target="_blank" class="text-blue-500">Auntie’s Books</a>
 - Walla Walla, WA: <a href="http://www.bookandgame.com/" target="_blank" class="text-blue-500">Book & Game</a>
-- Watsonville, CA: <a href="http://watsonvillebooks.com/" target="_blank" class="text-blue-500">Crossroads Books</a>
+- Watsonville, CA: Crossroads Books
