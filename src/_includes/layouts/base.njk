@@ -23,6 +23,6 @@
 
     {% include "../partials/footer.njk" %}
 
-    <script defer src="/js/main.js"></script>
+    <script src="/js/main{%- if eleventy.env.runMode == 'build' -%}.{{ build.hash.short }}{%- endif -%}.js" defer type="text/javascript"></script>
 	</body>
 </html>
