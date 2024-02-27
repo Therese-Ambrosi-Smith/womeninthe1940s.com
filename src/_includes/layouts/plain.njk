@@ -1,29 +1,21 @@
 <!doctype html>
 <html lang="{{ metadata.language }}" class="scroll-pt-6 {{ htmlClass }}" x-data="xDOM">
-	<head>
-    <title>{{ metadata.author }}</title>
+  <head>
+    <title>Women in the 1940s</title>
     {%- if eleventy.env.runMode === "serve" -%}
       <link rel="stylesheet" href="/css/main.css">
     {%- else -%}
       <style>{%- include "../../../_site/css/main.css" -%}</style>
     {%- endif -%}
-	</head>
-	<body class="{{ bodyClass }}">
+  </head>
+  <body class="bg-white {{ bodyClass }}">
 
-		{% include "../partials/scripts-body.njk" %}
+    <main id="skip" class="my-12">
+      <div class="container sm:px-10">
+        {{ content | safe }}
+      </div>
+    </main>
 
-		<a href="#skip" class="sr-only">Skip to main content</a>
-
-		<main id="skip" class="py-12">
-			<div class="container sm:px-10 prose">
-				{{ content | safe }}
-			</div>
-		</main>
-
-		{% include "../partials/scripts-footer.njk" %}
-
-		{# Load script defer #}
     <script src="/js/main{%- if eleventy.env.runMode == 'build' -%}.{{ build.hash.short }}{%- endif -%}.js" defer type="text/javascript"></script>
-
-	</body>
+  </body>
 </html>
