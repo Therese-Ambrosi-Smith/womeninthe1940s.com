@@ -20,7 +20,7 @@ module.exports = () => {
                 : "http://localhost:8080",
         timezone: process.env.TIMEZONE || "UTC",
         issues: {
-            owner: "reatlat",
+            owner: "Therese-Ambrosi-Smith",
             repo: "womeninthe1940s.com",
         },
         hash: {
