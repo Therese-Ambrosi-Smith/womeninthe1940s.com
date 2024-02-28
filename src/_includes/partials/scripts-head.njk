@@ -2,8 +2,11 @@
   (function(redirects){
     var searchParams = new URLSearchParams(location.search);
     var p = searchParams.get("p");
-    if (p && typeof redirects[p] !== undefined) {
+    if (p && redirects[p] !== undefined) {
       location.href = redirects[p];
+    }
+    else if (p && redirects[p] === undefined) {
+      location.href = "/404/";
     }
   })({
     "1040": "/help-preserve-history/",
