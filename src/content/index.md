@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-title: Women in their 1940s
+title: Your book purchase will help fund a new WWII home front history exhibit.
 permalink: /
 ---
-<h1>Your book purchase will help fund a new WWII home front history exhibit.</h1>
+
 <div class="md:float-right md:pl-10">
     {% image "/images/bluestarbook1.jpg", "", [auto], "w-full" %}
 </div>

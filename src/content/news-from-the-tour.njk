@@ -1,9 +1,11 @@
 ---
 layout: base.njk
+title: News from the Tour
 permalink: /news-from-the-tour/
 ---
 
 <section class="py-4 md:py-8">
+  <h1 class="sr-only">{{ title }}</h1>
   <div class="grid grid-cols-1 gap-4 lg:gap-8 prose mx-auto">
     {% for post in collections.posts | reverse %}
       {% include "partials/single-post-card.njk" %}

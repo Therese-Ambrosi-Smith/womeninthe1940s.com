@@ -1,7 +1,7 @@
 <article class="my-0">
-	<h3 class="font-bold text-md md:text-lg my-0">
+	<h2 class="font-bold text-md md:text-lg my-0">
 		<a class="text-current" href="/{{ post.data.title | slugify }}/">{{ post.data.title }}</a>
-	</h3>
+	</h2>
   <div class="post-metadata text-gray-700 m-0 mb-2 text-xs">
     <p class="my-0">
       Posted on <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate("LLLL dd, yyyy") }}</time>
