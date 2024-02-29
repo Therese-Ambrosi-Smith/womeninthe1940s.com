@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="{{ metadata.language }}" class="scroll-pt-6 {{ htmlClass }}" x-data="xDOM">
   <head>
+    {% include "../partials/metagen.njk" %}
+
     {%- if eleventy.env.runMode === "serve" -%}
       <link rel="stylesheet" href="/css/main.css">
     {%- else -%}

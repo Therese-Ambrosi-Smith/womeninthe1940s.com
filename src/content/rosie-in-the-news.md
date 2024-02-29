@@ -3,7 +3,7 @@ layout: page.njk
 title: Women in the 1940s, in the news
 permalink: /rosie-in-the-news/
 ---
-<div class="md:float-left md:pr-10">
+<div class="flex items-center justify-center md:float-left md:pr-10">
     <a href="/docs/MN-1.A.21.A21.LA_.1.11-11-11.fr_.1.3.st_.Q.pdf" download>{% image "/images/thumbnail.jpg", "", [auto], "!my-0" %}</a>
 </div>
 

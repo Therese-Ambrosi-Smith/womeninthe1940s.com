@@ -1,22 +1,10 @@
-{% set pageTitle = pageTitle or title %}
-
-{% if permalink|includes('/tags/') %}
-  {% set robots = 'noindex' %}
-  {% set pageTitle = 'Tagged “' + tag|slugify + '”' %}
-  {% set permalink = '/tags/' + tag|slugify + '/' %}
+{% if permalink === "/" %}
+  {% set pageTitle = title %}
 {% endif %}
-
-{% if permalink|includes('/blog/') %}
-  {% set pageTitle = title + ' | ' + metadata.author.name %}
-  {% set permalink = '/blog/' + title|slugify + '/' %}
-  {% set ogImage = '/img/og/' + title|slugify + '.png' %}
-{% endif %}
-
-{% set defaultOGImage = '/default-og-image.png' %}
 
 {% metagen
 	robots=robots or metadata.robots,
-	title=(pageTitle or title or metadata.title)|escapeMetaData,
+	title=pageTitle or title + ' ' + metadata.suffix|escapeMetaData,
 	desc=(desc or metadata.description)|escapeMetaData,
 	url=metadata.url + (metadata.permalink or permalink or '/'+(title|slugify)+'/'),
 	img=metadata.url + (ogImage or defaultOGImage),
