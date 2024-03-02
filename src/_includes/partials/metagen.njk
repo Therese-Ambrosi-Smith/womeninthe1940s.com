@@ -2,12 +2,20 @@
   {% set pageTitle = metadata.title %}
 {% endif %}
 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
 {% metagen
 	robots=robots or metadata.robots,
 	title=pageTitle or title + ' ' + metadata.suffix|escapeMetaData,
 	desc=(desc or metadata.description)|escapeMetaData,
 	url=metadata.url + (metadata.permalink or permalink or '/'+(title|slugify)+'/'),
-	img=metadata.url + (ogImage or defaultOGImage),
+	img=metadata.url + (ogImage or '/og-default.png'),
 	img_alt=(ogImageAlt or metadata.openGraph.imageAlt or metadata.title)|escapeMetaData,
 	twitter_card_type='summary_large_image',
 	twitter_handle=twitter or metadata.author.twitter,
@@ -15,7 +23,3 @@
 	generator=eleventy.generator,
 	comments=true
 %}
-
-{#- Atom and JSON feeds included by default #}
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-<link rel="alternate" href="/feed.json" type="application/json" title="{{ metadata.title }}">
