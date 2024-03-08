@@ -38,6 +38,12 @@ a personal blog of her travels and experiences, as well as information about her
 
 ## License
 
-&copy; [Therese Ambrosi Smith](https://thereseambrosismith.com/). All Right Reserved.
+The following directories and their contents are Copyright [Therese Ambrosi Smith](https://thereseambrosismith.com/):
 
-Source code licensed under the MIT License.
+- src/content
+- src/public
+- src/assets/images
+
+All other directories and files are licensed under the MIT License.
+
+&copy; [Therese Ambrosi Smith](https://thereseambrosismith.com/). All Right Reserved.
