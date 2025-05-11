@@ -8,6 +8,8 @@ htmlClass: "h-full"
 bodyClass: "page-404 h-full"
 ---
 
+<script>document.addEventListener('DOMContentLoaded', function () { plausible('404', { props: { path: document.location.pathname } }); });</script>
+
 <div class="min-h-[80vh] mx-auto text-center overflow-scroll flex flex-col items-center justify-center">
 
   <p class="m-0 text-6xl md:text-7xl lg:text-9xl font-bold tracking-wider">404</p>
